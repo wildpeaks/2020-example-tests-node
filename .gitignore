@@ -9,7 +9,7 @@
 !/.gitignore
 !/.github
 !/.vscode
-!/src
+!/dist
 !/test
 !/screenshots
 !/package.json

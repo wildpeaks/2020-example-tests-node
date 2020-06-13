@@ -1,7 +1,7 @@
 /* eslint-env node, mocha */
 "use strict";
 const {strictEqual, deepStrictEqual} = require("assert");
-const MyLibrary = require("../src/MyLibrary");
+const MyLibrary = require("../dist/MyLibrary");
 
 describe("Tests Suite 1", function(){
 	it("MyLibrary is a function", function(){
