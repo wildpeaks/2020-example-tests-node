@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "example",
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
+  "devDependencies": {
+    "mocha": "8.0.1"
+  }
+}
