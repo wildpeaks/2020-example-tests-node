@@ -4,11 +4,8 @@
 
 Tests run faster and use less memory when they don't need a browser.
 
-This works best for testing code that isn't tied to the DOM (such as parsing text),
-or only uses basic DOM manipulation (because [JSDOM](https://github.com/jsdom/jsdom) provides a basic DOM for Node).
-
-However, you would need a (headless) browser for testing how things are rendered (e.g. CSS styles or vendor-specific features)
-and simulating user interactions.
+This works best for testing code that isn't tied to the DOM (such as parsing text
+or transforming JSON scenegraphs).
 
 The other options:
 - [Option 1: Legacy](https://www.github.com/wildpeaks/example-tests-node)
@@ -47,4 +44,18 @@ or sending an alert that the build is broken).
 
 
 -------------------------------------------------------------------------------
+
+## VSCode
+
+The `.vscode` folder is optional: it merely defines the path to the tests
+and recommends a few matching extensions.
+
+This way, you could run specific tests on their own in the debugger, using Tests Explorer,
+and get direct feedback in the editor.
+
+![Screenshot of VSCode with Tests Explorer](screenshots\VSCode.png)
+
+
+-------------------------------------------------------------------------------
+
 
